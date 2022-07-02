@@ -1,0 +1,187 @@
+:root {
+    /* fonts */
+    --main-font: "Roboto",sans-serif;
+    --secondary-font:"Raleway",sans-serif;
+
+    /* text colors */
+    --main-txt-cl:#212121;
+    --accent-txt-cl:#2196F3;
+    --btn-txt-cl:#ffffff;
+
+    
+    /* bg colors */
+    
+
+    /* others */
+    
+}
+body {
+    font-family:var(--main-font);
+    color:var(--main-txt-cl);
+    }
+
+    /* reset styles */
+
+    .link{
+        text-decoration: none;
+        color: currentColor;
+    }
+
+    .list{
+        list-style: none;
+    } 
+    
+    /* basy styles */
+
+    .btn{
+        font-family: inherit;
+         font-weight: 700;
+         font-size: 16px;
+         line-height: calc(30 / 16);
+         display: flex;
+         letter-spacing: 0.06em;
+         color: #FFFFFF;
+         background-color:#2196F3;
+         cursor: pointer;
+    }
+
+    .btn-portfolio{
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(26 / 16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        background-color: #F5F4FA;      
+    }
+
+    .btn-portfolio:hover,
+    .btn-portfolio:focus {
+        color: var(--btn-txt-cl);
+        background-color: var(--accent-txt-cl);
+
+    }
+    .btn-mode-light{
+
+    }
+    .btn-mode-night{
+
+    }
+
+
+    /* Header */
+
+.header-nav-list,
+.header-contacts-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+}
+
+.header-link-studio{
+    color:var(--accent-txt-cl);
+}
+
+.header-link:hover,
+.header-link:focus,
+.footer-link:hover,
+.footer-link:focus {
+    color:var(--accent-txt-cl);
+    }
+
+.header-contacts-list{
+color: #757575;
+}
+
+/* Эффективные решения */
+
+.sentence {
+background-color: #2F303A;
+font-size: 44px;
+line-height: calc(60 / 44);
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFf;
+}
+
+/* Особенности */
+
+.main-features-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.main-features-text{
+    font-weight: 400;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Занятия */
+
+.main-occupation-title,
+.main-team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+   /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+
+/* Команда */
+.main-team{
+    background-color: #F5F4FA;
+}
+
+.main-team-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+     /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+
+.main-team-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+     /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: #757575;
+    
+}
+
+/* Footer */
+.footer{
+    background-color: #2F303A;
+}
+
+.link-logo{
+color: #FFFFFF;
+}
+
+.item-light-location{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+      letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+
+.item-light{
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* Porfolio */
+
