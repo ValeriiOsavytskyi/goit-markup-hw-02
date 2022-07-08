@@ -78,6 +78,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--main-txt-cl);
   background-color: var(--btn-prtfl);
@@ -173,7 +174,6 @@ body {
 /* Команда */
 .main-team {
   background-color: var(--btn-prtfl);
-  width: 1600px;
 }
 
 .main-team-title-head {
@@ -233,14 +233,12 @@ body {
 /* Portfolio */
 
 .portfolio-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
 
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--hdr-cntcts-lst);
